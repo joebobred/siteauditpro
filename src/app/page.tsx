@@ -326,7 +326,7 @@ export default function HomePage() {
                         </button>
                       </div>
                       <p className="text-sm text-gray-500 mt-2">
-                        We'll never spam you. One-time report delivery only.
+                        We will never spam you. One-time report delivery only.
                       </p>
                     </form>
                   )}
@@ -354,13 +354,13 @@ export default function HomePage() {
               <Users className="h-12 w-12 text-blue-600 mx-auto mb-4" />
               <div className="text-4xl font-bold text-blue-600 mb-2">1 in 4</div>
               <p className="text-gray-600 font-medium">Adults have a disability that affects their web use</p>
-              <p className="text-sm text-gray-500 mt-2">That's 61 million people in the US alone</p>
+              <p className="text-sm text-gray-500 mt-2">That is 61 million people in the US alone</p>
             </div>
             <div className="text-center p-6 bg-red-50 rounded-lg">
               <AlertTriangle className="h-12 w-12 text-red-600 mx-auto mb-4" />
               <div className="text-4xl font-bold text-red-600 mb-2">98%</div>
               <p className="text-gray-600 font-medium">Of websites fail basic accessibility tests</p>
-              <p className="text-sm text-gray-500 mt-2">Don't let your site be one of them</p>
+              <p className="text-sm text-gray-500 mt-2">Do not let your site be one of them</p>
             </div>
             <div className="text-center p-6 bg-green-50 rounded-lg">
               <TrendingUp className="h-12 w-12 text-green-600 mx-auto mb-4" />
@@ -372,7 +372,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
+{/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center space-x-3 mb-6">
@@ -381,8 +381,36 @@ export default function HomePage() {
             </div>
             <div className="text-xl font-bold">SiteAuditPro</div>
           </div>
-          <p className="text-center text-gray-400">
+          
+          {/* Legal Disclaimer */}
+          <div className="max-w-4xl mx-auto text-center mb-6">
+            <div className="text-xs text-gray-400 leading-relaxed space-y-2">
+              <p>
+                <strong>Disclaimer:</strong> SiteAuditPro provides automated accessibility scanning for informational purposes only. 
+                Our scans are not comprehensive accessibility audits and may not identify all accessibility issues or barriers.
+              </p>
+              <p>
+                Results should not be considered as legal advice or a guarantee of compliance with accessibility laws including 
+                but not limited to the Americans with Disabilities Act (ADA), Web Content Accessibility Guidelines (WCAG), or other regulations.
+              </p>
+              <p>
+                We recommend consulting with qualified accessibility professionals and conducting manual testing for critical applications. 
+                SiteAuditPro disclaims all liability for any damages or legal issues arising from reliance on our scanning results.
+              </p>
+              <p>
+                By using our service, you acknowledge that website accessibility compliance is your responsibility and that 
+                our tool is one resource among many that should be used in your accessibility evaluation process.
+              </p>
+            </div>
+          </div>
+
+          {/* Copyright */}
+          <p className="text-center text-gray-400 text-sm border-t border-gray-800 pt-6">
             &copy; 2024 SiteAuditPro. Making the web accessible for everyone.
+            <br />
+            <span className="text-xs">
+              This tool provides guidance only. Professional accessibility audits recommended for compliance verification.
+            </span>
           </p>
         </div>
       </footer>
