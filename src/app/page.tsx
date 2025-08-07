@@ -391,15 +391,20 @@ export default function HomePage() {
               </p>
               <p>
                 Results should not be considered as legal advice or a guarantee of compliance with accessibility laws including 
-                but not limited to the Americans with Disabilities Act (ADA), Web Content Accessibility Guidelines (WCAG), or other regulations.
+                but not limited to the Equality Act 2010, Public Sector Bodies (Websites and Mobile Applications) Accessibility Regulations 2018, 
+                European Accessibility Act, WCAG guidelines, or other UK/EU regulations.
               </p>
               <p>
                 We recommend consulting with qualified accessibility professionals and conducting manual testing for critical applications. 
-                SiteAuditPro disclaims all liability for any damages or legal issues arising from reliance on our scanning results.
+                SiteAuditPro (UK) disclaims all liability for any damages, legal issues, or claims arising from reliance on our scanning results.
               </p>
               <p>
                 By using our service, you acknowledge that website accessibility compliance is your responsibility and that 
                 our tool is one resource among many that should be used in your accessibility evaluation process.
+              </p>
+              <p>
+                <strong>UK Consumer Rights:</strong> Nothing in this disclaimer affects your statutory rights as a consumer under UK law. 
+                Email data collected is processed in accordance with UK GDPR. See our Privacy Policy for details.
               </p>
             </div>
           </div>
