@@ -1,8 +1,6 @@
 'use client'
 import { useState } from 'react'
-import { Button } from '@/components/ui/Button'
-import { Input } from '@/components/ui/Input'
-import { CheckCircle, AlertTriangle, Info, XCircle, Shield, Users, TrendingUp, Award } from 'lucide-react'
+import { CheckCircle, AlertTriangle, XCircle, Shield, Users, TrendingUp, Award } from 'lucide-react'
 
 export default function HomePage() {
   const [url, setUrl] = useState('')
@@ -70,7 +68,7 @@ export default function HomePage() {
       }
 
       setResults(mockResults)
-    } catch (err) {
+    } catch {
       setError('Failed to scan website. Please try again.')
     }
     setLoading(false)
